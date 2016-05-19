@@ -169,6 +169,8 @@ $ cat /etc/haproxy/haproxy.cfg
 
 This file will provide all the configuration details of the load balancer. 
 
+> **Note:** If you restart (stop/start) the linked load balancer's container, you MUST restart (stop/start) load balancer service in the stack! 
+
 ## Authentication
 
 <a id="manually-turn-off-github"></a>
